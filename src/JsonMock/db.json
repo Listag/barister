@@ -1,0 +1,254 @@
+{
+  "currentCourse": 
+    {
+      "course": "Органолептические показатели",
+      "lesson": "Урок: Тело",
+      "progress": 30,
+      "lessonUrl": "google.com",
+      "courseUrl": "yandex.ru"
+    },
+    "currentRecipe": 
+    {
+      "course": "Кофейные напитки",
+      "lesson": "Рецепт: Латте",
+      "progress": 45,
+      "lessonUrl": "google.com",
+      "courseUrl": "yandex.ru"
+    },
+  "users": [
+    {
+      "email": "lika.ovseychik.11@mail.ru",
+      "password": "$2a$10$TKavLsxD5nQM/kgCyzDm/.8B4gFGcILQXcrL7QkPR0vmrpuloLhsi",
+      "firstName": "Анжелика",
+      "id": 1
+    },
+    {
+      "email": "test@test.ru",
+      "password": "$2a$10$4Y1HQtkeAj8NKkJ1U.AUTeac3RLkGQtwVzovS0OxsBXmjGg.MsJhi",
+      "firstName": "Анжелика",
+      "id": 4
+    }
+  ],
+  "courses": [
+    {
+      "id": 0,
+      "name": "История",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 1,
+      "name": "Виды кофейных растений",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 2,
+      "name": "Арабика",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 3,
+      "name": "Робуста",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 4,
+      "name": "Без промышленного значения",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 5,
+      "name": "Выращивание и сбор урожая",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 6,
+      "name": "Классификация зелёных зёрен",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 7,
+      "name": "Структура кофейной ягоды",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 8,
+      "name": "Размер зёрен",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 9,
+      "name": "Дефекты зерен",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 10,
+      "name": "Обработка",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 11,
+      "name": "Обжарка",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 12,
+      "name": "Измельчение",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 13,
+      "name": "Переработка в растворимый кофе",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 14,
+      "name": "Способы приготовления напитка",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 15,
+      "name": "Кофеварка",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 16,
+      "name": "Турка (джезва)",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 17,
+      "name": "Френч-пресс",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 18,
+      "name": "Фильтр-кофе",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 19,
+      "name": "Гейзерная кофеварка",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 20,
+      "name": "Капсульная кофеварка",
+      "status": "done",
+      "url": "google.com"
+    },
+    {
+      "id": 21,
+      "name": "Эспрессо-машина",
+      "status": "in progress",
+      "url": "google.com"
+    },
+    {
+      "id": 22,
+      "name": "Органолептические показатели",
+      "status": "in progress",
+      "url": "google.com"
+    },
+    {
+      "id": 23,
+      "name": "Тело",
+      "status": "in progress",
+      "url": "google.com"
+    },
+    {
+      "id": 24,
+      "name": "Вкус",
+      "status": "backlog",
+      "url": "google.com"
+    },
+    {
+      "id": 25,
+      "name": "Аромат",
+      "status": "backlog",
+      "url": "google.com"
+    },
+    {
+      "id": 26,
+      "name": "Влияние на организм человека",
+      "status": "backlog",
+      "url": "google.com"
+    }
+  ],
+  "recipes": [
+    {
+      "id": 0,
+      "title": "Эспрессо",
+      "description": "Классический метод приготовления",
+      "imageUrl": "/espresso.jpeg",
+      "imageAlt": "Фотография эcпрессо",
+      "url": "google.com"
+    },
+    {
+      "id": 1,
+      "title": "Латте",
+      "description": "Кофейный напиток родом из Италии",
+      "imageUrl": "/latte.jpg",
+      "imageAlt": "Фотография латте",
+      "url": "google.com"
+    },
+    {
+      "id": 2,
+      "title": "Американо",
+      "description": "Напиток на основе эспрессо?",
+      "imageUrl": "/americano.jpg",
+      "imageAlt": "Фотография американо",
+      "url": "google.com"
+    },
+    {
+      "id": 3,
+      "title": "Авторские напитки",
+      "description": "Для конкретных заведений автором",
+      "imageUrl": "/signature-drinks.webp",
+      "imageAlt": "Фотография пример авторского напитка",
+      "url": "google.com"
+    },
+    {
+      "id": 4,
+      "title": "Флэт Уайт",
+      "description": "Экспериментов над балансом вкуса",
+      "imageUrl": "/flat-white.jpeg",
+      "imageAlt": "Фотография флэт уайт",
+      "url": "google.com"
+    },
+    {
+      "id": 5,
+      "title": "Раф",
+      "description": "Инновация родом из России",
+      "imageUrl": "/raf.jpeg",
+      "imageAlt": "Фотография рафа",
+      "url": "google.com"
+    },
+    {
+      "id": 6,
+      "title": "Мокко",
+      "description": "Кофе, молоко и шоколад",
+      "imageUrl": "/mocco.jpeg",
+      "imageAlt": "Фотография мокко",
+      "url": "google.com"
+    }
+  ]
+}
