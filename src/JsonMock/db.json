@@ -1,20 +1,18 @@
 {
-  "currentCourse": 
-    {
-      "course": "Органолептические показатели",
-      "lesson": "Урок: Тело",
-      "progress": 30,
-      "lessonUrl": "google.com",
-      "courseUrl": "yandex.ru"
-    },
-    "currentRecipe": 
-    {
-      "course": "Кофейные напитки",
-      "lesson": "Рецепт: Латте",
-      "progress": 45,
-      "lessonUrl": "google.com",
-      "courseUrl": "yandex.ru"
-    },
+  "currentCourse": {
+    "course": "Органолептические показатели",
+    "lesson": "Урок: Тело",
+    "progress": 30,
+    "lessonUrl": "google.com",
+    "courseUrl": "yandex.ru"
+  },
+  "currentRecipe": {
+    "course": "Кофейные напитки",
+    "lesson": "Рецепт: Латте",
+    "progress": 45,
+    "lessonUrl": "google.com",
+    "courseUrl": "yandex.ru"
+  },
   "users": [
     {
       "email": "lika.ovseychik.11@mail.ru",

@@ -1,18 +1,18 @@
-import * as React from 'react';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import CssBaseline from '@mui/material/CssBaseline';
-import TextField from '@mui/material/TextField';
-import Link from '@mui/material/Link';
-import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
-import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
-import axios from 'axios';
-import { useNavigate } from 'react-router';
-import { useState } from 'react';
+import * as React from "react";
+import Avatar from "@mui/material/Avatar";
+import Button from "@mui/material/Button";
+import CssBaseline from "@mui/material/CssBaseline";
+import TextField from "@mui/material/TextField";
+import Link from "@mui/material/Link";
+import Grid from "@mui/material/Grid";
+import Box from "@mui/material/Box";
+import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import axios from "axios";
+import { useNavigate } from "react-router";
+import { useState } from "react";
 
 const theme = createTheme();
 
@@ -25,18 +25,19 @@ export default function Authentication() {
     const data = new FormData(event.currentTarget);
 
     const jsonData = {
-      email: data.get('email'),
-      password: data.get('password'),
-    }
-    
-    const response = await axios.post('http://localhost:3002/login', jsonData)
-    .catch(errors => {
-      setAuthError(true);
-    });
-    localStorage.setItem('accessToken', response.data.accessToken);
-    localStorage.setItem('userId', response.data.user.id);
-    
-    navigate('/');
+      email: data.get("email"),
+      password: data.get("password"),
+    };
+
+    const response = await axios
+      .post("http://localhost:3002/login", jsonData)
+      .catch((errors) => {
+        setAuthError(true);
+      });
+    localStorage.setItem("accessToken", response.data.accessToken);
+    localStorage.setItem("userId", response.data.user.id);
+
+    navigate("/");
   };
 
   return (
@@ -46,12 +47,12 @@ export default function Authentication() {
         <Box
           sx={{
             marginTop: 8,
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
           }}
         >
-          <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
+          <Avatar sx={{ m: 1, bgcolor: "secondary.main" }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography component="h1" variant="h5">
@@ -80,7 +81,7 @@ export default function Authentication() {
               id="password"
               autoComplete="current-password"
             />
-            
+
             <Button
               type="submit"
               fullWidth
