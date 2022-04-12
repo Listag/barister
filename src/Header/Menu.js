@@ -4,6 +4,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { Divider, IconButton, Typography } from "@mui/material";
 import PermIdentityIcon from "@mui/icons-material/PermIdentity";
 import axios from "axios";
+import PropTypes from "prop-types";
 
 export default class BasicMenu extends React.Component {
   constructor(props) {
@@ -24,7 +25,7 @@ export default class BasicMenu extends React.Component {
   getUserData = async () => {
     const userId = localStorage.getItem("userId");
     const accessToken = localStorage.getItem("accessToken");
-    const response = axios
+    await axios
       .get(`http://localhost:3002/users/${userId}`, {
         headers: {
           Authorization: `Bearer ${accessToken}`,
@@ -36,7 +37,7 @@ export default class BasicMenu extends React.Component {
       });
   };
 
-  handleClose = (event) => {
+  handleClose = () => {
     this.setState({ open: !this.state.open });
   };
 
@@ -94,4 +95,8 @@ export default class BasicMenu extends React.Component {
       </div>
     );
   }
+}
+
+BasicMenu.propTypes = {
+  navigation: PropTypes.func.isRequired
 }

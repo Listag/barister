@@ -25,6 +25,42 @@
       "password": "$2a$10$4Y1HQtkeAj8NKkJ1U.AUTeac3RLkGQtwVzovS0OxsBXmjGg.MsJhi",
       "firstName": "Анжелика",
       "id": 4
+    },
+    {
+      "email": "test3@test.ru",
+      "password": "$2a$10$hCapbGHup.eL93zh3kfpTuGAsxf2RK3ekZyAI4Da8xwf4tbY5J05W",
+      "firstName": "Arseniy",
+      "id": 5
+    },
+    {
+      "email": "test23@test.ru",
+      "password": "$2a$10$PrY19YFF3x6nC9.AWHKBPOYdMj.V.q1xSzrq5OoqpxlzHqN05psL2",
+      "firstName": "Arseniy",
+      "id": 6
+    },
+    {
+      "email": "skurtars@gmail.com",
+      "password": "$2a$10$hOwHmcwvfIzGrKc6YTyA0ehGhyxjQXx77HkFw5/Sz4AuLQlBP1yOi",
+      "firstName": "Arseniy",
+      "id": 7
+    },
+    {
+      "email": "te22st@test.ru",
+      "password": "$2a$10$3f5xa9Zh2nfM8.uYW86EFOtpSb/HJg9Df6IAPmfyHU2qhigAwT9De",
+      "firstName": "Arseniy",
+      "id": 8
+    },
+    {
+      "email": "test123@test.ru",
+      "password": "$2a$10$D9YwHGeIPFzqI2BWxdJlUeKaNDxcJfhmZF.ndOdfUinz0R45akMJG",
+      "firstName": "Arseniy",
+      "id": 9
+    },
+    {
+      "email": "test1232@test.ru",
+      "password": "$2a$10$OiFmMKNhbJ/9J/8Emi2m4OJGkQFe2GuqQpAq5RlVIuYErpe6ZDD1.",
+      "firstName": "Arseniy",
+      "id": 10
     }
   ],
   "courses": [

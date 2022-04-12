@@ -4,7 +4,7 @@ import { Box } from "@mui/system";
 import { Typography } from "@mui/material";
 import { useNavigate } from "react-router";
 import { CardActionArea } from "@mui/material";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default function RecipeCard(props) {
   const navigate = useNavigate();
@@ -47,9 +47,9 @@ export default function RecipeCard(props) {
 }
 
 RecipeCard.propTypes = {
-    url: PropTypes.string,
-    imageAlt: PropTypes.string,
-    imageUrl: PropTypes.string,
-    title: PropTypes.string,
-    description: PropTypes.string,
-}
+  url: PropTypes.string,
+  imageAlt: PropTypes.string,
+  imageUrl: PropTypes.string,
+  title: PropTypes.string,
+  description: PropTypes.string,
+};

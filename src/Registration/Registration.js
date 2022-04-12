@@ -26,15 +26,12 @@ export default function Registration() {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
 
-    const jsonData = {
-      firstName: data.get("firstName"),
-      email: data.get("email"),
-      password: data.get("password"),
-    };
+    const jsonData = Object.fromEntries(data)
 
     const response = await axios
       .post("http://localhost:3002/register", jsonData)
       .catch((errors) => {
+        console.log(errors)
         setRegistrationError(true);
       });
     localStorage.setItem("accessToken", response.data.accessToken);

@@ -5,6 +5,7 @@ import { Box } from "@mui/system";
 import { Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
 import { Link } from "@mui/material";
+import PropTypes from "prop-types";
 
 export default function CurrentCourse(props) {
   const navigate = useNavigate();
@@ -81,4 +82,14 @@ export default function CurrentCourse(props) {
       </Box>
     </React.Fragment>
   );
+}
+
+CurrentCourse.propTypes = {
+  params: {
+    courseUrl: PropTypes.string,
+    course: PropTypes.string, 
+    lessonUrl: PropTypes.string,
+    lesson: PropTypes.string,
+    progress: PropTypes.number,
+  }
 }

@@ -46,7 +46,7 @@ export default class RecipesContainer extends React.Component {
 
   render() {
     const recipesForCarousel = [];
-    // Заполняем массив recipesForCarousel рецептами из this.state.recipes, начиная с индекса this.state.startRecipeIndex, проверяя, 
+    // Заполняем массив recipesForCarousel рецептами из this.state.recipes, начиная с индекса this.state.startRecipeIndex, проверяя,
     // что не вышли за границы существующих индексов массива this.state.recipes
     for (let i = 0; this.state.itemsInCarousel > i; i++) {
       if (this.state.startRecipeIndex + i < this.state.recipes.length) {
@@ -55,9 +55,9 @@ export default class RecipesContainer extends React.Component {
         );
       }
     }
-    
+
     const recipesForCarouselLength = recipesForCarousel.length;
-    // Проверяем, что в карусели меньше 4 видимых карточек и в this.state.recipes есть рецепты 
+    // Проверяем, что в карусели меньше 4 видимых карточек и в this.state.recipes есть рецепты
     // Добавляем в recipesForCarousel рецепты из this.state.recipes, начиная с нулевого индекса
     if (recipesForCarousel.length < 4 && this.state.recipes.length > 0) {
       for (

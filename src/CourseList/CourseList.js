@@ -6,6 +6,7 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import CircleOutlinedIcon from "@mui/icons-material/CircleOutlined";
 import { CheckCircleOutlineOutlined } from "@mui/icons-material";
+import PropTypes from "prop-types";
 
 export default function CourseList(props) {
   return (
@@ -34,4 +35,8 @@ export default function CourseList(props) {
       })}
     </List>
   );
+}
+
+CourseList.propTypes = {
+  courseList: PropTypes.array
 }
