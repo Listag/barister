@@ -1,8 +1,8 @@
 Баристер — главная страница обучающающей платформы для бариста. Данный проект был придуман и реализован самостоятельно, не является проектом из курсов. 
 
 
-![Image alt]()
-![Image alt]()
+![Image alt](https://github.com/Listag/barister/blob/main/public/screenShots/mainScreenShot1.png)
+![Image alt](https://github.com/Listag/barister/blob/main/public/screenShots/mainScreenShot2.png)
 
 
 
